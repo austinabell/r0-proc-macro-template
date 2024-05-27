@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["host", "guest"]
+members = ["host", "guest", "risc0-compile-macros"]
 default-members = ["host"]
 
 # Always optimize; building and running the guest takes much longer without optimization.
